@@ -1,0 +1,9 @@
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.18s ease;
+  }
+  
+  .navbar.active {
+    background-color: rgb(39, 39, 39); /* Adjust the color as needed */
+  }
+  
