@@ -7,7 +7,7 @@ const Introduction = () => {
       <section className="w-full flex flex-col md:flex-row items-center justify-between p-4">
         <div className="w-full md:w-1/2 flex flex-col justify-center md:justify-start mb-6 md:mb-0">
           <span className="text-3xl md:text-4xl lg:text-6xl font-bold font-outfit text-center md:text-left">
-            <span className="text-yellow-400">Hi, </span>
+            <span className="text-yellow-400">Heyy, </span>
             <span className="block text-white tracking-wide">
               I'm Muhammad Ayaan Shaikh
             </span>
