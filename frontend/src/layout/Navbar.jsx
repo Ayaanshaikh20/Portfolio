@@ -18,7 +18,7 @@ const Navbar = () => {
         data-aos-duration="1500"
         class="bg-gray-900 bg-opacity-90 fixed w-full z-20 top-0 start-0 border-b border-gray-600"
       >
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
           <a
             href="https://flowbite.com/"
             class="flex items-center space-x-3 rtl:space-x-reverse"
@@ -32,7 +32,7 @@ const Navbar = () => {
           <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
               type="button"
-              class="text-white font-outfit bg-gray-800 focus:ring-4 bg-opacity-90 border border-gray-600 hover:bg-gray-700 font-medium rounded-full text-sm px-4 py-2 text-center "
+              class="text-black font-outfit font-medium bg-white focus:ring-4 border border-white hover:bg-gray-100 rounded-full text-sm px-4 py-2 text-center "
             >
               Contact me
             </button>
