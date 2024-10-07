@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router";
-import { Home, Dashboard } from "../pages/common"
+import { Home, Layout } from "../pages/common"
 
 const Router = () => {
   return (
     <>
       <Routes>
-        <Route element={<Dashboard />}>
+        <Route element={<Layout />}>
           <Route exact path="/" element={<Home />} />
         </Route>
       </Routes>

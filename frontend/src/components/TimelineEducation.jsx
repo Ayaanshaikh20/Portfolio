@@ -60,11 +60,11 @@ const TimelineEducation = () => {
         >
           <TimelineOppositeContent color="text.secondary">
             <Typography
-              variant="h6" // Changed from h5 to h6 for smaller screens
+              variant="h6"
               sx={{
                 fontWeight: "bold",
                 color: "#FFFFFF",
-                fontSize: { xs: "1rem", sm: "1.25rem" }, // Responsive font size
+                fontSize: { xs: "1rem", sm: "1.25rem" },
               }}
             >
               <span className="font-outfit">{edu.year}</span>
@@ -96,11 +96,11 @@ const TimelineEducation = () => {
 
           <TimelineContent>
             <Typography
-              variant="h6" // Changed from h5 to h6 for smaller screens
+              variant="h6" 
               sx={{
                 fontWeight: "bold",
                 marginBottom: "0.3rem",
-                fontSize: { xs: "1rem", sm: "1.25rem" }, // Responsive font size
+                fontSize: { xs: "1rem", sm: "1.25rem" },
               }}
             >
               <span className="font-outfit text-white">
@@ -109,10 +109,10 @@ const TimelineEducation = () => {
             </Typography>
 
             <Typography
-              variant="body2" // Changed from body1 to body2 for smaller screens
+              variant="body2"
               sx={{
                 marginBottom: "0.2rem",
-                fontSize: { xs: "0.875rem", sm: "1rem" }, // Responsive font size
+                fontSize: { xs: "0.875rem", sm: "1rem" },
               }}
             >
               <span className="text-slate-400 font-outfit">{edu.address}</span>
@@ -122,7 +122,7 @@ const TimelineEducation = () => {
               variant="body2"
               sx={{
                 color: "text.secondary",
-                fontSize: { xs: "0.875rem", sm: "1rem" }, // Responsive font size
+                fontSize: { xs: "0.875rem", sm: "1rem" },
               }}
             >
               <span className="font-outfit text-yellow-400">

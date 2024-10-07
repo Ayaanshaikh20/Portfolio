@@ -23,12 +23,12 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-colors text-white duration-300 ${
-        scrolled ? "bg-black shadow-lg shadow-black" : "bg-transparent"
+        scrolled ? "bg-black" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto xl:px-10 flex items-center justify-between p-3">
+      <div className="mx-auto xl:px-10 flex items-center justify-between p-2">
         <span className="flex items-center w-full space-x-3 rtl:space-x-reverse">
-          <img src={Logo} className="rounded-full h-14" alt="Logo" />
+          <img src={Logo} className="rounded-full h-12" alt="Logo" />
         </span>
 
         {/* <div className="flex md:order-2 w-full justify-end">

@@ -46,10 +46,10 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         color: {
-          value: "#4d4d4d",
+          value: "#999999",
         },
         links: {
-          color: "#4d4d4d",
+          color: "#999999",
           distance: 250,
           enable: true,
           opacity: 0.3,
@@ -68,9 +68,9 @@ const ParticlesComponent = (props) => {
         number: {
           density: {
             enable: true,
-            value_area: 200, // Increase this value for denser particles
+            value_area: 150, // Increase this value for denser particles
           },
-          value: 100, // Increase the total number of particles
+          value: 200, // Increase the total number of particles
         },
         opacity: {
           value: 1.0,

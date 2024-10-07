@@ -1,7 +1,7 @@
-import Dashboard from "./Dashboard";
+import Layout from "./Layout";
 import Home from "./Home";
 
 export {
-  Dashboard,
+  Layout,
   Home,
 };

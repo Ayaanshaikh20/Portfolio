@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router";
 import Navbar from "../components/Navbar";
-const Dashboard = () => {
+const Layout = () => {
   return (
     <div className=" bg-[#000]">
       <Navbar />
@@ -12,4 +12,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Layout;

@@ -7,7 +7,7 @@ const App = () => {
   
   useEffect(() => {
     // animation
-    // AOS.init();
+    AOS.init();
   }, []);
 
   return (
