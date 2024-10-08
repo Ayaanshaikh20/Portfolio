@@ -79,9 +79,9 @@ const TimelineEducation = () => {
                 height: "2.5rem",
               }}
             >
-              {edu.id == "1" ? (
+              {edu.id === "1" ? (
                 <BsMortarboardFill color="black" size={"large"} className="" />
-              ) : edu.id == "2" ? (
+              ) : edu.id === "2" ? (
                 <FaBookOpen color="black" size={"large"} className="" />
               ) : (
                 <FaPencil color="black" size={"large"} className="" />

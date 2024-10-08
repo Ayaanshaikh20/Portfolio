@@ -26,7 +26,7 @@ const ParticlesComponent = (props) => {
       interactivity: {
         events: {
           onClick: {
-            enable: true,
+            enable: false,
             mode: "push",
           },
           onHover: {
@@ -36,11 +36,11 @@ const ParticlesComponent = (props) => {
         },
         modes: {
           push: {
-            distance: 200,
-            duration: 15,
+            distance: 10,
+            duration: 10,
           },
           grab: {
-            distance: 150,
+            distance: 10,
           },
         },
       },
