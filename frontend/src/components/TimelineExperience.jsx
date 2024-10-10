@@ -18,7 +18,7 @@ const experienceData = [
     company: "Prosoft e-solutions India Pvt Ltd.",
     address: "Belgaum, Karnataka",
     description:
-      "Contributed to the R&D and development of a WhatsApp chatbot for the state department using Node.js, Express.js, and the WhatsApp Cloud API. Assisted in implementing features like Subscriber Detail Record (SDR) lookup, developed a UI for bot configuration, and played a key role in the bot's successful trial deployment.",
+      "Contributed to the R&D and development of a WhatsApp chatbot for the state department using Node.js, Express.js, and the WhatsApp Cloud API. Assisted in implementing features like Subscriber Detail Record (SDR) lookup, developed a UI for bot configuration.",
     id: "1",
   },
   {

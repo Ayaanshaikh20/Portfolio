@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Typography, Grid, IconButton } from "@mui/material";
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,35 +17,35 @@ const Footer = () => {
             </Typography>
             <div className="flex space-x-4">
               <IconButton
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/muhammad-ayaan-shaikh/"
                 target="_blank"
                 aria-label="LinkedIn"
                 className="text-yellow-400 hover:text-white"
               >
-                <FaLinkedin size={24} />
+                <FaLinkedin size={30} />
               </IconButton>
               <IconButton
-                href="https://github.com"
+                href="https://github.com/Ayaanshaikh20"
                 target="_blank"
                 aria-label="GitHub"
                 className="text-yellow-400 hover:text-white"
               >
-                <FaGithub size={24} />
+                <FaGithub size={30} />
               </IconButton>
               <IconButton
-                href="https://twitter.com"
+                href="https://www.facebook.com/profile.php?id=100004227799035"
                 target="_blank"
-                aria-label="Twitter"
+                aria-label="facebook"
                 className="text-yellow-400 hover:text-white"
               >
-                <FaTwitter size={24} />
+                <FaFacebook size={30} />
               </IconButton>
               <IconButton
                 href="mailto:officialayaanshaikh@gmail.com"
                 aria-label="Email"
                 className="text-yellow-400 hover:text-white"
               >
-                <FaEnvelope size={24} />
+                <FaEnvelope size={30} />
               </IconButton>
             </div>
           </Grid>
