@@ -41,7 +41,7 @@ const Footer = () => {
                 <FaTwitter size={24} />
               </IconButton>
               <IconButton
-                href="mailto:your-email@example.com"
+                href="mailto:officialayaanshaikh@gmail.com"
                 aria-label="Email"
                 className="text-yellow-400 hover:text-white"
               >
