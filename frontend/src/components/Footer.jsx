@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 relative py-8 z-50 mt-10">
       <Container>
-        <Grid container spacing={3} justifyContent="center">
+        <Grid container spacing={3} justifyContent="space-between">
           {/* Social Media Links */}
           <Grid item xs={12} sm={6} md={3}>
             <Typography
