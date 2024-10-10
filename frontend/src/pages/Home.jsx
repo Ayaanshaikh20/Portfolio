@@ -5,6 +5,7 @@ import Statistics from "../components/Statistics";
 import Education from "../components/Education";
 import Loader from "../components/Loader";
 import Skills from "../components/Skills";
+import Experience from "../components/Experience";
 
 const Home = () => {
   const [showLoader, setShowLoader] = useState(true);
@@ -34,6 +35,8 @@ const Home = () => {
             <Introduction />
             {/*Statistics section*/}
             <Statistics />
+            {/*Experience section*/}
+            <Experience />
             {/*Education section*/}
             <Education />
             {/*Skills section*/}
