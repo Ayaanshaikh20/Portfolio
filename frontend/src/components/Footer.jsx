@@ -59,15 +59,12 @@ const Footer = () => {
               <span className=" font-outfit">Contact Info</span>
             </Typography>
             <Typography variant="body2" className="text-slate-400">
-              <span className=" font-outfit">Belgaum, Karnataka, India</span>
+              <span className=" font-outfit">Karnataka, India</span>
             </Typography>
             <Typography variant="body2" className="text-slate-400">
               <span className=" font-outfit">
                 Email: officialayaanshaikh@gmail.com
               </span>
-            </Typography>
-            <Typography variant="body2" className="text-slate-400">
-              <span className=" font-outfit">Phone: +91-959-454-8987</span>
             </Typography>
           </Grid>
         </Grid>
