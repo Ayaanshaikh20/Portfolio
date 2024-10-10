@@ -6,12 +6,19 @@ const Loader = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    // Prevent scrolling
+    document.body.style.overflow = 'hidden';
+
     // Hide loader after 2 seconds
     const timer = setTimeout(() => {
       setIsLoading(false);
+      document.body.style.overflow = 'auto';
     }, 2000);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer);
+      document.body.style.overflow = 'auto';
+    };
   }, []);
 
   return (

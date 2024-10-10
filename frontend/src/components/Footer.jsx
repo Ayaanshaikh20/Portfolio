@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaFacebook } from "react-i
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 relative py-8 z-50 mt-10">
+    <footer className="bg-gray-900 z-30 relative py-8 mt-10">
       <Container>
         <Grid container spacing={3} justifyContent="space-between">
           {/* Social Media Links */}

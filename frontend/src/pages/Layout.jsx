@@ -11,7 +11,7 @@ const Layout = () => {
       <div className=" w-full px-10 pt-32 min-h-screen flex justify-center h-full">
         <Outlet />
       </div>
-      {/*Footer section*/}
+      {/* Footer section */}
       <Footer />
     </div>
   );
