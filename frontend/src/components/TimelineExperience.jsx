@@ -55,11 +55,10 @@ const TimelineExperience = () => {
         >
           <TimelineOppositeContent color="text.secondary">
             <Typography
-              variant="h6"
               sx={{
                 fontWeight: "bold",
                 color: "#FFFFFF",
-                fontSize: { xs: "1rem", sm: "1.25rem" },
+                fontSize: { xs: "0.7rem", sm: "1.2rem" },
               }}
             >
               <span className="font-outfit">{exp.year}</span>
