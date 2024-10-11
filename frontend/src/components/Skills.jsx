@@ -47,8 +47,27 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="group w-40 flex flex-col items-center justify-center p-4 rounded-xl bg-white shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-2"
+            className="group w-40 flex flex-col items-center justify-center p-4 rounded-xl bg-white shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105"
+            style={{
+              background: "linear-gradient(145deg, #f9f9f9, #e6e6e6)",
+              boxShadow:
+                "5px 5px 15px rgba(0, 0, 0, 0.15), -5px -5px 15px rgba(255, 255, 255, 0.7)",
+              borderRadius: "15px",
+            }}
           >
+            <div
+              style={{
+                background:
+                  "linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent)",
+                borderRadius: "15px",
+                height: "100%",
+                width: "100%",
+                position: "absolute",
+                top: 0,
+                left: 0,
+                pointerEvents: "none",
+              }}
+            />
             <img
               src={skill.logo}
               className="h-16 w-16 mb-4 transform group-hover:scale-110 transition-transform duration-300"
@@ -63,7 +82,29 @@ const Skills = () => {
 
       {/* Small screens: Custom Carousel */}
       <div className="md:hidden flex flex-col items-center relative">
-        <div className="w-40 flex flex-col items-center justify-center p-4 rounded-xl bg-white shadow-lg transition-all duration-300 ease-in-out">
+        <div
+          className="w-40 flex flex-col items-center justify-center p-4 rounded-xl shadow-lg transition-all duration-300 ease-in-out"
+          style={{
+            background: "linear-gradient(145deg, #f9f9f9, #e6e6e6)",
+            boxShadow:
+              "5px 5px 15px rgba(0, 0, 0, 0.15), -5px -5px 15px rgba(255, 255, 255, 0.7)",
+            borderRadius: "15px",
+            position: "relative",
+          }}
+        >
+          <div
+            style={{
+              background:
+                "linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent)",
+              borderRadius: "15px",
+              height: "100%",
+              width: "100%",
+              position: "absolute",
+              top: 0,
+              left: 0,
+              pointerEvents: "none",
+            }}
+          />
           <img
             src={skills[currentIndex].logo}
             className="h-16 w-16 mb-4"
